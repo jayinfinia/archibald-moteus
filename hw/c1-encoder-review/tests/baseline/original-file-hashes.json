@@ -1,0 +1,14 @@
+{
+  "led_sense.kicad_sch": "d47c3d50eea849ea4ef76e9a53dbb625c84d0571957d07294212f8dc7b5febeb",
+  "power_input.kicad_sch": "c92413c5d3bd07c00fd9a94bd3def5efa798e97a550088f93d94ae82e8ddd1d0",
+  "aux2.kicad_sch": "32ddac890630f47e87978599ec863c3052539859b674e06554be35e67556f970",
+  "vt_sense.kicad_sch": "424dddf94c0a88b5bd21fcad907991a75ee84ae42b882cf5052059a9f07c1ced",
+  "moteus_c1.kicad_sch": "445f719192ab2b61f4ec5a5b3d96e6dd30f323d28057d8591532507e10f35edb",
+  "bulk_capacitance.kicad_sch": "865a95fedad5572babb20a1b8e174d10a074fde79c6153ce8aeee3d91a7517cf",
+  "stm32g4.kicad_sch": "990cda07fc72dd9088e7d8692376b6caa20c5b92fa60bf5edc5792d2d9cf5948",
+  "h_bridge.kicad_sch": "81fa4ce030f9dfab48cba03d42af8ea0fc111f6fba496455404011af305b63ef",
+  "can.kicad_sch": "608666e955182c7077eea94d5b6df0923389af70e6825bc936c296352d290115",
+  "gate_driver.kicad_sch": "953ea4a3d9f3cfcafc8cf4bb9bb80c7f7a10e30f06aa5b24100b39fc2eaae6c5",
+  "aux1.kicad_sch": "5723d19b6edee7d77d0fb79002c8b397af28d73c9b3c1f2cce055dca15baeb16",
+  "current_sense.kicad_sch": "7241cce4001afa07cac2a65da9b424aa3e26be5ece4ddd0c221e974b02b6acfd"
+}

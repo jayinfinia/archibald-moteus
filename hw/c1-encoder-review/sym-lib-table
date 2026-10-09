@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "moteus")(type "KiCad")(uri "${KIPRJMOD}/moteus.kicad_sym")(options "")(descr ""))
+ (lib (name "Draft") (type "KiCad") (uri "${KIPRJMOD}/Draft.kicad_sym") (options "") (descr "Encoder integration review symbols")))

@@ -1,0 +1,2353 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-08T00:11:47-0400",
+    "kicad_version": "9.0.4",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin AUX1_I2C_PULLUP",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 0.7239
+                            },
+                            "uuid": "31b3a625-5a12-4e02-9f3f-dc793bd4ce26"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol J1 [XT30PW-M]",
+                            "pos": {
+                                "x": 0.3302,
+                                "y": 0.6731
+                            },
+                            "uuid": "56f3e9b6-f2b1-49af-9db2-4f7908197f64"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'GNDPWR' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR01 [GNDPWR]",
+                            "pos": {
+                                "x": 0.6223,
+                                "y": 0.9144
+                            },
+                            "uuid": "320d5fb9-d030-40db-bb6c-ab146c5784de"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol VP1 [Conn_01x01]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.0668
+                            },
+                            "uuid": "1f872617-f32e-44ac-95b0-bc6f057e4b46"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [MAX15062BATA+T]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.6731
+                            },
+                            "uuid": "683d9f85-a397-4028-b0e0-b7a9b01f6fdc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol VN1 [Conn_01x01]",
+                            "pos": {
+                                "x": 0.4699,
+                                "y": 1.1811
+                            },
+                            "uuid": "4eaf65f6-5b71-4cdf-b162-546458d2b223"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol NT1 [NetTie_2]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.8763
+                            },
+                            "uuid": "b7e981ee-7681-4f5e-9345-610a4e1ca472"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'GNDPWR' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR03 [GNDPWR]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 1.2954
+                            },
+                            "uuid": "59b1f533-766a-4c83-939d-3d6fd0b4ca32"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02 [GND]",
+                            "pos": {
+                                "x": 1.3335,
+                                "y": 0.9398
+                            },
+                            "uuid": "8b2cd921-22dc-4828-a054-f1efbeedca99"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [74404042470]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6731
+                            },
+                            "uuid": "86d4432c-c261-418b-a2e0-34ccfc704ae8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'GNDPWR' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR05 [GNDPWR]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 1.2573
+                            },
+                            "uuid": "3cf11119-1c63-4e0a-854c-45ced3ac8cdf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR04 [GND]",
+                            "pos": {
+                                "x": 2.5654,
+                                "y": 0.889
+                            },
+                            "uuid": "0ea77eeb-8277-4ba9-84ab-ebb6ad97e641"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol U5 [TCAN1042HGVDRBRQ1]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.8255
+                            },
+                            "uuid": "b0ecb3d2-4270-425b-b3d9-9e0d7cee380b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol CAN1 [S3B-PH-SM4-TB(LF)(SN)]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 0.7493
+                            },
+                            "uuid": "3bac4ec8-1c9c-4ae3-ad80-65f8c11d428f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol U6 [AS5047P-ATSM]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.762
+                            },
+                            "uuid": "be3cd637-a497-43ca-bcaf-954349218d0f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol AUX2 [SM07B-GHS-TB(LF)(SN)]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.7874
+                            },
+                            "uuid": "bcad9b4b-0e5e-4875-94ee-9e87cf49881a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol D11 [BAT41KFILM]",
+                            "pos": {
+                                "x": 1.4478,
+                                "y": 0.4826
+                            },
+                            "uuid": "63e49596-c728-49c0-a1dc-a03582ac5159"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'BAT41KFILM' doesn't match copy in library 'moteus'",
+                    "items": [
+                        {
+                            "description": "Symbol D11 [BAT41KFILM]",
+                            "pos": {
+                                "x": 1.4478,
+                                "y": 0.4826
+                            },
+                            "uuid": "63e49596-c728-49c0-a1dc-a03582ac5159"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol D12 [BAT41KFILM]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.4826
+                            },
+                            "uuid": "8d6e1d29-d005-41fc-bd31-1244db1c0c1b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'BAT41KFILM' doesn't match copy in library 'moteus'",
+                    "items": [
+                        {
+                            "description": "Symbol D12 [BAT41KFILM]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.4826
+                            },
+                            "uuid": "8d6e1d29-d005-41fc-bd31-1244db1c0c1b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'LED' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol D13 [LED]",
+                            "pos": {
+                                "x": 0.7366,
+                                "y": 0.6477
+                            },
+                            "uuid": "32bc2107-5953-430d-b3b2-222038302312"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'LED' doesn't match copy in library 'Device'",
+                    "items": [
+                        {
+                            "description": "Symbol D14 [LED]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 0.6477
+                            },
+                            "uuid": "cf601838-54e9-47a8-adf2-147c55b3aeec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [STM32G474CEU6]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 0.3175
+                            },
+                            "uuid": "7c417bf6-a7e0-499b-b94c-be753f994e95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'AUX1_I2C_PULLUP'",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.9525
+                            },
+                            "uuid": "c87068d8-b011-44cc-b798-f77efe8f8552"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol U3 [STM32G474CEU6]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 1.4859
+                            },
+                            "uuid": "c9b6ff5f-9e56-4025-89e2-94c1dcd60069"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol SWD1 [S6B-ZR-SM4A-TF(LF)(SN)]",
+                            "pos": {
+                                "x": 2.286,
+                                "y": 0.6223
+                            },
+                            "uuid": "480ee66c-4281-48ad-8062-f537d0dba55c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol U4 [DRV8323SRTAR]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.9525
+                            },
+                            "uuid": "6b0f1930-55a8-4fc2-a70c-dcd430c95682"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 [TPN19008QM_LQ]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.9144
+                            },
+                            "uuid": "c9f0c6cd-8e55-4bdf-aab2-a1d8b985c76e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol X3 [Conn_01x01]",
+                            "pos": {
+                                "x": 1.2954,
+                                "y": 1.0541
+                            },
+                            "uuid": "1cdba4f6-eebb-4109-8645-7244a97479df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol D10 [BAT41KFILM]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.778
+                            },
+                            "uuid": "c64dc0e4-eddf-416e-928c-0c84589c72ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "Symbol 'BAT41KFILM' doesn't match copy in library 'moteus'",
+                    "items": [
+                        {
+                            "description": "Symbol D10 [BAT41KFILM]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.778
+                            },
+                            "uuid": "c64dc0e4-eddf-416e-928c-0c84589c72ba"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 [TPN19008QM_LQ]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.5621
+                            },
+                            "uuid": "6689c0b0-7319-4203-a4e4-5c59a0efcb25"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol NT6 [NetTie_2]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.6764
+                            },
+                            "uuid": "4276493d-5ea4-4f79-a2d0-432e21a2ab76"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'moteus'.",
+                    "items": [
+                        {
+                            "description": "Symbol NT7 [NetTie_2]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.778
+                            },
+                            "uuid": "1c4e121e-aea1-4c91-8997-94037bcc4c4e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                }
+            ]
+        },
+        {
+            "path": "/Power Input/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/d4e0661f-9fe0-45a1-bd14-699222e26efc",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Pin P [P, Power input, Line]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.6731
+                            },
+                            "uuid": "4d59d45e-6db7-49cc-8939-c0b5f18a674a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol J1 Pin N [N, Power input, Line]",
+                            "pos": {
+                                "x": 0.381,
+                                "y": 0.6985
+                            },
+                            "uuid": "a18a51f0-7c28-4d45-b712-ea89f62ba001"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 3 [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 0.7239
+                            },
+                            "uuid": "acc8a581-7740-4d1b-aec7-9e1607e1ade7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1 Pin 6 [*RESET, Output, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.7239
+                            },
+                            "uuid": "0b822a71-b9bb-4f86-928a-4a646390e582"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol L1 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6731
+                            },
+                            "uuid": "ee336f60-a8b4-425c-b5a6-753f01024bc0"
+                        },
+                        {
+                            "description": "Symbol U1 Pin 8 [LX, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.6731
+                            },
+                            "uuid": "df79d071-4eed-4624-8135-25893cfb68b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol L1 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.7399,
+                                "y": 0.6731
+                            },
+                            "uuid": "536ac455-aca2-4c58-990e-19e1d015663d"
+                        },
+                        {
+                            "description": "Symbol U2 Pin 3 [EN, Input, Line]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 0.7239
+                            },
+                            "uuid": "fe5cba29-bfbf-43e2-899b-982f631d62c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin 1 [IN, Power input, Line]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 0.6985
+                            },
+                            "uuid": "63b93284-09e4-4615-8bb7-df8eaa39ed41"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/stm32g4/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/5e769ee1-ce48-46cf-88a7-f438acd37f48",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 24 [PB11, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 1.0287
+                            },
+                            "uuid": "dcc28f65-3988-47f9-adff-e4498f84d4b7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 27 [PB14, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 1.1049
+                            },
+                            "uuid": "64910eab-42f1-41e5-a81e-5a7d883b59b9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin 49 [EPAD, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.8509,
+                                "y": 1.5875
+                            },
+                            "uuid": "7d76cadf-2c14-4e31-8a3a-728cdc59e3db"
+                        },
+                        {
+                            "description": "Symbol U6 Pin 13 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.7874
+                            },
+                            "uuid": "2847e0a9-a124-4824-b0cc-3c8620dbb386"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol SWD1 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 0.5461
+                            },
+                            "uuid": "0f8f470f-adad-49ec-b037-4edc250ec998"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol SWD1 Pin SH2 [SHIELD, Passive, Line]",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 0.7239
+                            },
+                            "uuid": "60666e38-9d87-4d27-a1ee-3b68a274123d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol SWD1 Pin SH1 [SHIELD, Passive, Line]",
+                            "pos": {
+                                "x": 2.1844,
+                                "y": 0.7493
+                            },
+                            "uuid": "6fcd7794-1fab-4345-ab18-57e6e4e04219"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                }
+            ]
+        },
+        {
+            "path": "/Gate Driver/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/b408431b-0e42-4242-b4c3-a4965027c029",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 3 [VCP, Power input, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.4191
+                            },
+                            "uuid": "b084b0c7-623a-429d-b159-f33ec914506d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 33 [DVDD, Power input, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.6223
+                            },
+                            "uuid": "665bc49f-cacb-4195-99a9-b20861336147"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 26 [MODE_SDO, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.9779
+                            },
+                            "uuid": "8ad2c377-37af-4921-8c1a-68a5f286e26d"
+                        },
+                        {
+                            "description": "Symbol U3 Pin 40 [PC11, Bidirectional, Line]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 0.3937
+                            },
+                            "uuid": "a3fd914e-dccb-48e9-981f-c4a9370adea5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 31 [CAL, Input, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 1.1811
+                            },
+                            "uuid": "d6bea47e-3ebc-4c56-804b-045be2cbbc06"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin 31 [CAL, Input, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 1.1811
+                            },
+                            "uuid": "d6bea47e-3ebc-4c56-804b-045be2cbbc06"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/H Bridge A/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/e54c5578-fae3-4911-a296-59c945d84f23",
+            "violations": [
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.4572
+                            },
+                            "uuid": "48088b5c-614d-4e92-ace4-e84f293784a4"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 5 [VDRAIN, Input, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.3429
+                            },
+                            "uuid": "bff6aefd-7eda-4c31-9b7f-dac1700beb82"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4572
+                            },
+                            "uuid": "22938052-e751-4399-bf7a-b74d105ee4ed"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.4572
+                            },
+                            "uuid": "48088b5c-614d-4e92-ace4-e84f293784a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.4572
+                            },
+                            "uuid": "c4969543-c14d-490c-abb3-0e91c3729c1a"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4572
+                            },
+                            "uuid": "22938052-e751-4399-bf7a-b74d105ee4ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 5 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.4572
+                            },
+                            "uuid": "08f28fce-faa7-4e67-81e8-5c9c5039c50b"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.4572
+                            },
+                            "uuid": "c4969543-c14d-490c-abb3-0e91c3729c1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 1 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.9144
+                            },
+                            "uuid": "90f28e45-6fa1-4275-855a-b23f917076a1"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.9144
+                            },
+                            "uuid": "c0dc4c0e-f43a-4fa5-a1be-7023865104dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.9144
+                            },
+                            "uuid": "c0dc4c0e-f43a-4fa5-a1be-7023865104dd"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 3 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.9144
+                            },
+                            "uuid": "487b7e02-b16d-47fc-8f60-407e1f341ba8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 3 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.9144
+                            },
+                            "uuid": "487b7e02-b16d-47fc-8f60-407e1f341ba8"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.1049
+                            },
+                            "uuid": "aac65864-b36e-4a83-bb7d-a11e89ac6c57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 4 [GATE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.9144
+                            },
+                            "uuid": "aae40f48-9686-43b3-a52e-5adf6571aec9"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 6 [GHA, Output, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.3937
+                            },
+                            "uuid": "760c25dc-5b4a-49f7-a1e9-fdc8811e57c8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.1049
+                            },
+                            "uuid": "8a491bdc-8bef-471a-93d1-f00e8a2666e5"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 7 [SHA, Input, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.4445
+                            },
+                            "uuid": "5d22289f-be5b-4999-be88-0588485de00f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.1049
+                            },
+                            "uuid": "fb408f86-4ee8-4085-9709-49cf0bef0871"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.1049
+                            },
+                            "uuid": "8a491bdc-8bef-471a-93d1-f00e8a2666e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.1049
+                            },
+                            "uuid": "aac65864-b36e-4a83-bb7d-a11e89ac6c57"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.1049
+                            },
+                            "uuid": "fb408f86-4ee8-4085-9709-49cf0bef0871"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 5 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.1049
+                            },
+                            "uuid": "df35f288-3b64-4019-9052-ff70a83746fc"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.1049
+                            },
+                            "uuid": "aac65864-b36e-4a83-bb7d-a11e89ac6c57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol D10 Pin 1 [Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.6764
+                            },
+                            "uuid": "d77bb25a-ceef-4d49-9b68-b10e2703d1f3"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 4 [GATE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.5621
+                            },
+                            "uuid": "75031360-6e33-4add-9677-0afb9efe52bd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol D10 Pin 2 [Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.778
+                            },
+                            "uuid": "730593b6-0514-4924-8b43-1c6936499f58"
+                        },
+                        {
+                            "description": "Symbol D10 Pin 2 [Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.778
+                            },
+                            "uuid": "730593b6-0514-4924-8b43-1c6936499f58"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 1 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.5621
+                            },
+                            "uuid": "497827a1-aee1-454f-a9ea-6ac65b0865f6"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.5621
+                            },
+                            "uuid": "0e6e8cb4-d056-43f0-8c19-83253a2d1216"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.5621
+                            },
+                            "uuid": "0e6e8cb4-d056-43f0-8c19-83253a2d1216"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 3 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.5621
+                            },
+                            "uuid": "b11b4469-f8cb-4fe5-9c6e-5c0177cac635"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 4 [GATE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.5621
+                            },
+                            "uuid": "75031360-6e33-4add-9677-0afb9efe52bd"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 8 [GLA, Output, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.4953
+                            },
+                            "uuid": "1d6a4eba-9d6d-4433-93a1-00e0d8603490"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/H Bridge B/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/84723ca0-3c55-4a96-8456-927d28db47e5",
+            "violations": [
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.4572
+                            },
+                            "uuid": "48088b5c-614d-4e92-ace4-e84f293784a4"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 5 [VDRAIN, Input, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.3429
+                            },
+                            "uuid": "bff6aefd-7eda-4c31-9b7f-dac1700beb82"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4572
+                            },
+                            "uuid": "22938052-e751-4399-bf7a-b74d105ee4ed"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.4572
+                            },
+                            "uuid": "48088b5c-614d-4e92-ace4-e84f293784a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.4572
+                            },
+                            "uuid": "c4969543-c14d-490c-abb3-0e91c3729c1a"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4572
+                            },
+                            "uuid": "22938052-e751-4399-bf7a-b74d105ee4ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 5 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.4572
+                            },
+                            "uuid": "08f28fce-faa7-4e67-81e8-5c9c5039c50b"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.4572
+                            },
+                            "uuid": "c4969543-c14d-490c-abb3-0e91c3729c1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Both OUTX and SHX are attached to the same items; OUTX will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'OUTX'",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.0541
+                            },
+                            "uuid": "80b32fba-a734-437a-98d5-36627054788b"
+                        },
+                        {
+                            "description": "Hierarchical Label 'SHX'",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.9525
+                            },
+                            "uuid": "39515dc7-3998-443d-a61b-e6d94d62e480"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 1 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.9144
+                            },
+                            "uuid": "90f28e45-6fa1-4275-855a-b23f917076a1"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.9144
+                            },
+                            "uuid": "c0dc4c0e-f43a-4fa5-a1be-7023865104dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.9144
+                            },
+                            "uuid": "c0dc4c0e-f43a-4fa5-a1be-7023865104dd"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 3 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.9144
+                            },
+                            "uuid": "487b7e02-b16d-47fc-8f60-407e1f341ba8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 3 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.9144
+                            },
+                            "uuid": "487b7e02-b16d-47fc-8f60-407e1f341ba8"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.1049
+                            },
+                            "uuid": "aac65864-b36e-4a83-bb7d-a11e89ac6c57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 4 [GATE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.9144
+                            },
+                            "uuid": "aae40f48-9686-43b3-a52e-5adf6571aec9"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 15 [GHB, Output, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.5969
+                            },
+                            "uuid": "53071226-6d9c-4e78-b7d0-ffee794d2651"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.1049
+                            },
+                            "uuid": "8a491bdc-8bef-471a-93d1-f00e8a2666e5"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 14 [SHB, Input, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.6477
+                            },
+                            "uuid": "e6ed914e-920c-4ec6-8c80-9dbe6fc153b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.1049
+                            },
+                            "uuid": "fb408f86-4ee8-4085-9709-49cf0bef0871"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.1049
+                            },
+                            "uuid": "8a491bdc-8bef-471a-93d1-f00e8a2666e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.1049
+                            },
+                            "uuid": "aac65864-b36e-4a83-bb7d-a11e89ac6c57"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.1049
+                            },
+                            "uuid": "fb408f86-4ee8-4085-9709-49cf0bef0871"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 5 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.1049
+                            },
+                            "uuid": "df35f288-3b64-4019-9052-ff70a83746fc"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.1049
+                            },
+                            "uuid": "aac65864-b36e-4a83-bb7d-a11e89ac6c57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol D10 Pin 1 [Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.6764
+                            },
+                            "uuid": "d77bb25a-ceef-4d49-9b68-b10e2703d1f3"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 4 [GATE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.5621
+                            },
+                            "uuid": "75031360-6e33-4add-9677-0afb9efe52bd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol D10 Pin 2 [Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.778
+                            },
+                            "uuid": "730593b6-0514-4924-8b43-1c6936499f58"
+                        },
+                        {
+                            "description": "Symbol D10 Pin 2 [Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.778
+                            },
+                            "uuid": "730593b6-0514-4924-8b43-1c6936499f58"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Both SXX_P and SPX are attached to the same items; SXX_P will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'SXX_P'",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 1.6764
+                            },
+                            "uuid": "da33359b-ac8a-49a1-91c1-a633d6ea5207"
+                        },
+                        {
+                            "description": "Hierarchical Label 'SPX'",
+                            "pos": {
+                                "x": 0.8636,
+                                "y": 1.6764
+                            },
+                            "uuid": "7cdffb64-f6a9-405b-9c5e-c68856bd2ae5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 1 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.5621
+                            },
+                            "uuid": "497827a1-aee1-454f-a9ea-6ac65b0865f6"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.5621
+                            },
+                            "uuid": "0e6e8cb4-d056-43f0-8c19-83253a2d1216"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.5621
+                            },
+                            "uuid": "0e6e8cb4-d056-43f0-8c19-83253a2d1216"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 3 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.5621
+                            },
+                            "uuid": "b11b4469-f8cb-4fe5-9c6e-5c0177cac635"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 4 [GATE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.5621
+                            },
+                            "uuid": "75031360-6e33-4add-9677-0afb9efe52bd"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 13 [GLB, Output, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.6985
+                            },
+                            "uuid": "34a83cbf-dff9-4800-ae4e-4891a6a2ea7f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Both SXX_N and SNX are attached to the same items; SXX_N will be used in the netlist",
+                    "items": [
+                        {
+                            "description": "Label 'SXX_N'",
+                            "pos": {
+                                "x": 0.9525,
+                                "y": 1.778
+                            },
+                            "uuid": "418b75ac-d3aa-4300-a0e8-a4a1fbe4ffbf"
+                        },
+                        {
+                            "description": "Hierarchical Label 'SNX'",
+                            "pos": {
+                                "x": 0.8636,
+                                "y": 1.778
+                            },
+                            "uuid": "7fbd46d1-57f0-4c28-846a-32c3b086e65c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "multiple_net_names"
+                }
+            ]
+        },
+        {
+            "path": "/H Bridge C/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/925a84d2-19c0-462d-bae4-aa3034c06df6",
+            "violations": [
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.4572
+                            },
+                            "uuid": "48088b5c-614d-4e92-ace4-e84f293784a4"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 5 [VDRAIN, Input, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.3429
+                            },
+                            "uuid": "bff6aefd-7eda-4c31-9b7f-dac1700beb82"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4572
+                            },
+                            "uuid": "22938052-e751-4399-bf7a-b74d105ee4ed"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.4572
+                            },
+                            "uuid": "48088b5c-614d-4e92-ace4-e84f293784a4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.4572
+                            },
+                            "uuid": "c4969543-c14d-490c-abb3-0e91c3729c1a"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4572
+                            },
+                            "uuid": "22938052-e751-4399-bf7a-b74d105ee4ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 5 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.4572
+                            },
+                            "uuid": "08f28fce-faa7-4e67-81e8-5c9c5039c50b"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.4572
+                            },
+                            "uuid": "c4969543-c14d-490c-abb3-0e91c3729c1a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 1 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.9144
+                            },
+                            "uuid": "90f28e45-6fa1-4275-855a-b23f917076a1"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.9144
+                            },
+                            "uuid": "c0dc4c0e-f43a-4fa5-a1be-7023865104dd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.9144
+                            },
+                            "uuid": "c0dc4c0e-f43a-4fa5-a1be-7023865104dd"
+                        },
+                        {
+                            "description": "Symbol Q5 Pin 3 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.9144
+                            },
+                            "uuid": "487b7e02-b16d-47fc-8f60-407e1f341ba8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 3 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 0.9144
+                            },
+                            "uuid": "487b7e02-b16d-47fc-8f60-407e1f341ba8"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.1049
+                            },
+                            "uuid": "aac65864-b36e-4a83-bb7d-a11e89ac6c57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q5 Pin 4 [GATE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.9144
+                            },
+                            "uuid": "aae40f48-9686-43b3-a52e-5adf6571aec9"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 16 [GHC, Output, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.8001
+                            },
+                            "uuid": "b6c08328-2ac3-4240-88b0-0c6e9c3a7dd9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.1049
+                            },
+                            "uuid": "8a491bdc-8bef-471a-93d1-f00e8a2666e5"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 17 [SHC, Input, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.8509
+                            },
+                            "uuid": "7d413fbc-168c-4d05-b469-f87086cbacc1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.1049
+                            },
+                            "uuid": "fb408f86-4ee8-4085-9709-49cf0bef0871"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 8 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.1049
+                            },
+                            "uuid": "8a491bdc-8bef-471a-93d1-f00e8a2666e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.1049
+                            },
+                            "uuid": "aac65864-b36e-4a83-bb7d-a11e89ac6c57"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 7 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.1049
+                            },
+                            "uuid": "fb408f86-4ee8-4085-9709-49cf0bef0871"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 5 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.1049
+                            },
+                            "uuid": "df35f288-3b64-4019-9052-ff70a83746fc"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 6 [DRAIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.1049
+                            },
+                            "uuid": "aac65864-b36e-4a83-bb7d-a11e89ac6c57"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol D10 Pin 1 [Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 1.6764
+                            },
+                            "uuid": "d77bb25a-ceef-4d49-9b68-b10e2703d1f3"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 4 [GATE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.5621
+                            },
+                            "uuid": "75031360-6e33-4add-9677-0afb9efe52bd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 1 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 1.5621
+                            },
+                            "uuid": "497827a1-aee1-454f-a9ea-6ac65b0865f6"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.5621
+                            },
+                            "uuid": "0e6e8cb4-d056-43f0-8c19-83253a2d1216"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 2 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 1.5621
+                            },
+                            "uuid": "0e6e8cb4-d056-43f0-8c19-83253a2d1216"
+                        },
+                        {
+                            "description": "Symbol Q6 Pin 3 [SOURCE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1557,
+                                "y": 1.5621
+                            },
+                            "uuid": "b11b4469-f8cb-4fe5-9c6e-5c0177cac635"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol Q6 Pin 4 [GATE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 1.5621
+                            },
+                            "uuid": "75031360-6e33-4add-9677-0afb9efe52bd"
+                        },
+                        {
+                            "description": "Symbol U4 Pin 18 [GLC, Output, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.9017
+                            },
+                            "uuid": "3de37a3f-692d-475b-8a23-243d4deb112e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/Current Sense/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/adfb1ba9-8cbb-4111-b231-612817615ad7",
+            "violations": []
+        },
+        {
+            "path": "/CAN/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/cf7fb73e-e679-40b6-8bcc-ee7cd8d392ee",
+            "violations": []
+        },
+        {
+            "path": "/VT Sense/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/48d13d89-b8be-47a2-a862-a49a2f59de27",
+            "violations": []
+        },
+        {
+            "path": "/aux2/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/acdbdec5-9b31-4472-ad9c-e25ff8f3815b",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol AUX2 Pin S1 [SHIELD, Power input, Line]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.889
+                            },
+                            "uuid": "321ba1fb-562b-4186-a9f6-83bc761b7ce1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol AUX2 Pin S1 [SHIELD, Power input, Line]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.889
+                            },
+                            "uuid": "321ba1fb-562b-4186-a9f6-83bc761b7ce1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol AUX2 Pin S2 [SHIELD, Power input, Line]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.9144
+                            },
+                            "uuid": "c360e703-bff5-48d9-890d-31085b2e4a9d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol AUX2 Pin S2 [SHIELD, Power input, Line]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 0.9144
+                            },
+                            "uuid": "c360e703-bff5-48d9-890d-31085b2e4a9d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol D11 Pin 2 [Unspecified, Line]",
+                            "pos": {
+                                "x": 1.4478,
+                                "y": 0.4826
+                            },
+                            "uuid": "2a41596a-41b9-4eb3-8973-2164e9857f71"
+                        },
+                        {
+                            "description": "Symbol D12 Pin 2 [Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.4826
+                            },
+                            "uuid": "f5b84a2f-65c8-4748-bca8-27f83d3d3836"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Bidirectional are connected",
+                    "items": [
+                        {
+                            "description": "Symbol D12 Pin 2 [Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.4826
+                            },
+                            "uuid": "f5b84a2f-65c8-4748-bca8-27f83d3d3836"
+                        },
+                        {
+                            "description": "Symbol U3 Pin 34 [PA12, Bidirectional, Line]",
+                            "pos": {
+                                "x": 1.3589,
+                                "y": 0.6223
+                            },
+                            "uuid": "a19dfcd4-29d5-4dac-9603-610212f71a61"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/aux1/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/f5ff11e6-5190-457d-9619-daef82e4425b",
+            "violations": [
+                {
+                    "description": "Pins of type Power output and Power output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 5 [TEST, Power output, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.8636
+                            },
+                            "uuid": "af79a9bd-949f-40d8-9315-87749cb51a5b"
+                        },
+                        {
+                            "description": "Symbol U6 Pin 13 [GND, Power output, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.7874
+                            },
+                            "uuid": "2847e0a9-a124-4824-b0cc-3c8620dbb386"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 6 [B, Output, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.889
+                            },
+                            "uuid": "6475b0e1-d623-4709-95cd-c08e36144bf7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 7 [A, Output, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.9144
+                            },
+                            "uuid": "639fc283-6f6b-47fa-97f4-add472c394d0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 14 [I/PWM, Output, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.762
+                            },
+                            "uuid": "a3758dc5-f8e4-4012-bf3b-36a5e9c24e32"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 11 [VDD, Power input, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.8382
+                            },
+                            "uuid": "df48754f-77aa-48cb-be4b-979e616dad74"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 10 [U, Output, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.8636
+                            },
+                            "uuid": "8029d7ca-665b-4509-a3d7-7d740f0d5d07"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 9 [V, Output, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.889
+                            },
+                            "uuid": "ea35c155-d94b-4fec-b1af-773ac89b2903"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol U6 Pin 8 [W/PWM, Output, Line]",
+                            "pos": {
+                                "x": 1.5113,
+                                "y": 0.9144
+                            },
+                            "uuid": "a87f72db-f6e8-41b3-82eb-5591dcdea3e5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                }
+            ]
+        },
+        {
+            "path": "/LED Sense/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/54136a62-2cda-4bb6-b3b3-758464ba372d",
+            "violations": []
+        },
+        {
+            "path": "/Bulk Capacitance/",
+            "uuid_path": "/bd70986b-b0dc-4add-82aa-78459b97d0c4/87da30b6-f12f-4b45-8295-412e1241022b",
+            "violations": []
+        }
+    ],
+    "source": "moteus_c1.kicad_sch"
+}
