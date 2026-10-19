@@ -180,6 +180,36 @@ def hashes(c):
     return all(hashlib.sha256((PROJECT/n).read_bytes()).hexdigest()==digest
                for n,digest in original.items() if n not in ['aux2.kicad_sch','moteus_c1.kicad_sch'])
 
+def reviewed_footprint():
+    return parse_sexpr(PROJECT/'Encoder.pretty/TI_DRC0010J.kicad_mod')
+
+@check('F01 U7 footprint assignment and manufacturer peripheral land geometry')
+def package_lands(c):
+    if c.byref['U7'].findtext('footprint') != 'Encoder:TI_DRC0010J': return False
+    pads=children(reviewed_footprint(),'pad')
+    electrical=[p for p in pads if p[1] and p[1]!='11']
+    expected={str(i):((-1.4,(i-3)*.5) if i<=5 else (1.4,(8-i)*.5)) for i in range(1,11)}
+    return len(electrical)==10 and all(
+        p[1] in expected and tuple(map(float,child(p,'at')[1:3]))==expected[p[1]]
+        and tuple(map(float,child(p,'size')[1:3]))==(.6,.24)
+        and set(child(p,'layers')[1:])=={'F.Cu','F.Paste','F.Mask'} for p in electrical)
+
+@check('F02 U7 exposed-pad geometry, grounding and segmented paste')
+def package_ep(c):
+    pads=children(reviewed_footprint(),'pad')
+    def shape(p):return tuple(map(float,child(p,'at')[1:3]+child(p,'size')[1:3]))
+    ep={shape(p) for p in pads if p[1]=='11'}
+    expected={(0.,0.,1.65,2.4)}|{(x,y,.25,.5) for x in [-.25,.25] for y in [-1.45,1.45]}
+    paste={shape(p) for p in pads if p[1]=='' and child(p,'layers')[1:]==['F.Paste']}
+    stencil={(0.,y,1.5,1.06) for y in [-.63,.63]}|{(x,y,.25,.34) for x in [-.25,.25] for y in [-1.53,1.53]}
+    return ep==expected and paste==stencil and c.joined(('U7','11'),('U2','2'))
+
+@check('P01 Power-budget topology: encoder and 3.3 V LDO share 5 V buck')
+def budget_topology(c):
+    return (c.value('U1')=='MAX15062BATA+T' and c.value('U2')=='TLV70233PDBVR'
+        and c.joined(('J2','1'),('U2','1'),('L1','1'))
+        and c.joined(('U2','5'),('U7','10')))
+
 @check('E01 Integrated encoder sheet has no ERC violations')
 def encoder_erc(c):
     report=json.loads((RESULTS/'erc.json').read_text())
@@ -256,8 +286,8 @@ def main():
         except Exception as e:result.append(dict(test='M '+name,status='FAIL',detail='Mutation setup failed: '+str(e)))
     erc=json.loads((RESULTS/'erc.json').read_text());vv=[v for s in erc['sheets'] for v in s['violations']]
     gates=[('G01 Full-project ERC clearance',f"{len(vv)} remaining findings; see erc.json"),
-      ('G02 Exact footprint and FPC contact-orientation review','U7/J2/J3 footprints unassigned; mechanical pad mapping pending'),
-      ('G03 Loaded/startup power and timing margins','No approved worst-case budget or measurement evidence'),
+      ('G02 Exact footprint and FPC contact-orientation review','U7 drawing-derived footprint assigned; J2/J3 geometry and cable orientation pending'),
+      ('G03 Loaded/startup power and timing margins','Conditional loaded budget documented; maximum/startup, base-load, thermal and timing evidence pending'),
       ('G04 Complete modified C1 PCB and manufacturing checks','No integrated PCB layout; connector/CAN-pad changes pending'),
       ('G05 UART, BiSS, battery and motor bench tests','No assembled board or recorded bench results')]
     # These are release gates requiring engineering evidence, not inferred passes.

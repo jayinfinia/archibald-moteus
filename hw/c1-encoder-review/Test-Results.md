@@ -1,8 +1,8 @@
 # C1 encoder test results
 
-Run: 2026-10-18T21:13:47.687754-04:00
+Run: 2026-10-18T21:27:06.819816-04:00
 
-**39 passed; 0 failed; 5 release gates blocked.**
+**42 passed; 0 failed; 5 release gates blocked.**
 
 These are structural schematic checks, not circuit simulation or evidence of working hardware. Fresh netlist and ERC generated from the packaged full C1 project.
 
@@ -37,6 +37,9 @@ These are structural schematic checks, not circuit simulation or evidence of wor
 | R01 Connectivity outside the encoder sheet matches stock C1 | PASS |  |
 | R02 Original non-encoder component values and footprints retained | PASS |  |
 | R03 All other original child schematic files are byte-identical | PASS |  |
+| F01 U7 footprint assignment and manufacturer peripheral land geometry | PASS |  |
+| F02 U7 exposed-pad geometry, grounding and segmented paste | PASS |  |
+| P01 Power-budget topology: encoder and 3.3 V LDO share 5 V buck | PASS |  |
 | E01 Integrated encoder sheet has no ERC violations | PASS |  |
 | E02 No unexplained new electrical ERC violations versus original C1 | PASS |  |
 | M reverse encoder input pair | PASS | Injected defect detected |
@@ -48,8 +51,8 @@ These are structural schematic checks, not circuit simulation or evidence of wor
 | M populate DNP termination | PASS | Injected defect detected |
 | M drop ribbon pin 8 | PASS | Injected defect detected |
 | G01 Full-project ERC clearance | BLOCKED | 89 remaining findings; see erc.json |
-| G02 Exact footprint and FPC contact-orientation review | BLOCKED | U7/J2/J3 footprints unassigned; mechanical pad mapping pending |
-| G03 Loaded/startup power and timing margins | BLOCKED | No approved worst-case budget or measurement evidence |
+| G02 Exact footprint and FPC contact-orientation review | BLOCKED | U7 drawing-derived footprint assigned; J2/J3 geometry and cable orientation pending |
+| G03 Loaded/startup power and timing margins | BLOCKED | Conditional loaded budget documented; maximum/startup, base-load, thermal and timing evidence pending |
 | G04 Complete modified C1 PCB and manufacturing checks | BLOCKED | No integrated PCB layout; connector/CAN-pad changes pending |
 | G05 UART, BiSS, battery and motor bench tests | BLOCKED | No assembled board or recorded bench results |
 
